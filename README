@@ -1,3 +1,7 @@
+
+=================================================================
+=================================================================
+
 ||  //  ||\\    ||  =||=  ||=====  ||=====     ||=====   ||    ||
 || //   || \\   ||   ||   ||       ||          ||        ||    ||
 ||<<    ||  \\  ||   ||   ||===    ||===   ### ||===     ||    ||
@@ -8,6 +12,14 @@
 =================================================================
 
 some experimentation at creating Knife Plug-ins
+
+[+] ./chef_plugins_knife/task_role_rename.rb  
+ |+ added a Chef Role Rename task
+ |+syntax: 'knife lab role rename CURRENT_ROLE_NAME NEW_ROLE_NAME'
+
+[+] ./chef_plugins_knife/myversions.rb
+ |+ plain trial plug-in listing chef gem versions 
+ |+syntax: 'knife lab chef versions'
 
 [][][][][][][][][][][][][][][][][][][][]
 **  USAGE **
